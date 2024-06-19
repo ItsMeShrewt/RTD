@@ -1,55 +1,110 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+body {
+  display: block;
+  background: linear-gradient(to right, aqua 25%, aquamarine 75%);
 }
 .main {
   width: 100%;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  background: linear-gradient(to right, aqua 25%, aquamarine 75%);
 }
-.navi {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 0;
-  background-color: #333;
-  color: #fff;
-  width: 86%;
+.navbar {
+  width: 1200px;
+  height: 75px;
   margin: auto;
 }
-.navi .logo {
-  width: 160px;
-  cursor: pointer;
-  margin-top: -3%;
-  margin-left: -2%;
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
 }
+
 .logo {
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
-  font-family: "Noto Sans", sans-serif;
+  color: rgb(49, 104, 104);
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 10px;
+  float: left;
+  padding-top: 10px;
+  background: transparent;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  border: transparent;
 }
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
 ul {
-  margin-top: -4%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ul li {
   list-style: none;
-  display: inline-block;
-  padding: 10px;
+  margin-left: 65px;
+  margin-top: 30px;
+  font-size: 15px;
 }
-a {
+
+ul li a {
   text-decoration: none;
-  font-family: "Noto Sans", sans-serif;
+  color: white;
+  font-family: Arial;
   font-weight: bold;
+  transition: 0.5s ease-in-out;
 }
-a:hover {
-  color: orange;
-  transition: 0.3s;
+
+ul li a:hover {
+  color: black;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  margin-top: 13px;
+  color: black;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: aqua;
+  border: 2px solid aqua;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
 }
