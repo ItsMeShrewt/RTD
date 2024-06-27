@@ -10,7 +10,10 @@ body {
 header {
   background: #28282b;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  font-weight: bold;
 }
 
 nav {
@@ -23,7 +26,8 @@ nav {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 25px;
+  color: #cc5500;
 }
 
 .nav-links {
@@ -45,6 +49,7 @@ nav {
 
 .nav-links a:hover {
   color: #cc5500;
+  transition: 0.3s;
 }
 .burger {
   display: none;
