@@ -2,10 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  background-color: #fffdd0;
+  scroll-behavior: smooth;
 }
 
 header {
-  background: #333;
+  background: #28282b;
   color: white;
   padding: 10px 0;
 }
@@ -40,6 +43,9 @@ nav {
   font-size: 18px;
 }
 
+.nav-links a:hover {
+  color: #cc5500;
+}
 .burger {
   display: none;
   cursor: pointer;
@@ -51,6 +57,7 @@ nav {
   background: white;
   margin: 5px;
   transition: all 0.3s ease;
+  opacity: 0;
 }
 
 section {
@@ -80,4 +87,12 @@ section {
   .nav-active {
     display: flex;
   }
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
