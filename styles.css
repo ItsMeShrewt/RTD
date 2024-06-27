@@ -84,27 +84,47 @@ section {
   font-family: monospace;
   margin: 150px;
 }
-
 h1 {
   font-size: 70px;
   font-weight: bolder;
   margin-top: 64px;
-  margin-bottom: -10px;
+  margin-bottom: 15px;
   color: #28282b;
+  display: inline-block;
 }
 
 h2 {
   font-size: 65px;
   font-weight: bolder;
-  margin-top: 10px;
+  margin-top: -36px;
+  margin-bottom: 5px;
   color: #28282b;
 }
 
 p {
-  margin-top: -36px;
   font-size: 24px;
   color: #cc5500;
+  line-height: 1.5em;
+  margin-top: -10px;
 }
+
+.txt-sec p {
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  margin: 5px;
+  color: #cc3300;
+}
+
+.photo-sec {
+  margin-left: 120px;
+}
+
+.photo-sec img {
+  margin-top: -420px;
+  width: -200px; /* Adjust the size as needed */
+  border-radius: -10px;
+}
+
 button {
   font-size: 16px;
   height: 36px;
